@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>OC与JS交互</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="index.css" />
+	</head>
+
+	<body>
+        <div style="margin-top: 100px;"></div>
+		<div class="JS_Fun" onclick="JS_Fun_01()">
+			调用OC方法1
+		</div>
+        <div class="JS_Fun" onclick="JS_Fun_02('1','2')">
+            调用OC方法2
+        </div>
+        <div class="JS_Fun" onclick="JS_Fun_05()">
+            调用OC方法5 同步返回值
+        </div>
+        <div class="JS_Fun" onclick="JS_Fun_06('1','2')">
+            调用OC方法6 同步返回值
+        </div>
+
+		<script src="index.js" type="text/javascript" charset="utf-8"></script>
+
+	</body>
+
+</html>
